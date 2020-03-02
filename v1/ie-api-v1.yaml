@@ -16,7 +16,7 @@ info:
     2. Receive API key from InfluencEye team;
     3. Read this document to learn how to integrate the API into your systems.
 
-    # Quota and Limits SSSS
+    # Quota and Limits
     Analytics API and Discovery API have separate limits and are tracked differently.
 
     Usage of Analytics API depends on your agreement with InfluencEye. Typically, we offer packages of profiles, e.g. 1,000 or 10,000 or even 100,000 profiles. You can buy as many packages as you want and use them within a year. The more profiles you buy, the cheaper is price per profile.
@@ -135,7 +135,7 @@ paths:
     post:
       tags:
         - Search
-      summary: search
+      summary: Search Advanced
       operationId: searchUsingPOST
       parameters: []
       responses:
@@ -8326,9 +8326,6 @@ components:
       type: apiKey
       in: query
       name: apiKey
-externalDocs:
-  description: InfluencEye Api Documentation
-  url: 'https://influenceye.com/wp-content/uploads/2020/02/influenceye-api-documentation-v1.pdf'
 tags:
   - name: Search
   - name: Profile
