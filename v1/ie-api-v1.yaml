@@ -51,8 +51,6 @@ info:
     Parameter apiKey is given to each API client and must be kept in secret.
 servers:
   - url: 'https://app.influenceye.com'
-  - url: 'https://infl-stage-01.indatalabs.com'
-    description: ''
 paths:
   /api/v1/status:
     get:
